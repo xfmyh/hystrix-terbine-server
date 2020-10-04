@@ -13,3 +13,8 @@ turbine:
   app-config: eshop-one-service
 
   cluster-name-expression: new String("default")
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list:
+      - 172.17.0.7
